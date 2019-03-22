@@ -34,7 +34,7 @@ public class Pessoa {
 		return cel;
 	}
 
-	public void setCelular(String telefone) {
+	public void setCelular(String cel) {
 		this.cel = cel;
 	}
 
