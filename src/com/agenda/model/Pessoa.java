@@ -4,6 +4,7 @@ public class Pessoa {
 	private String nome;
 	private String email;
 	private String telefone;
+	private String cel;
 	private String endereco;
 
 	public String getNome() {
@@ -28,6 +29,13 @@ public class Pessoa {
 
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
+	}
+	public String getCelular() {
+		return cel;
+	}
+
+	public void setCelular(String telefone) {
+		this.cel = cel;
 	}
 
 	public String getEndereco() {
